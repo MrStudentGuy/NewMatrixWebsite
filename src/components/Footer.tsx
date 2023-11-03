@@ -22,7 +22,7 @@ const Footer = () => {
         <footer className="bg-[#2c2c2c] pb-4 mt-8 border-t-8 border-matrixPurple">
             <div className="container mx-auto flex flex-col items-center justify-between lg:flex-row">
                 <div className="flex flex-col items-center lg:items-start">
-                    <div className={"flex flex-row space-x-2"}>
+                    <div className={"flex flex-row items-center space-x-2"}>
                         <Image
                             className="hover:scale-125 hover:rotate-3 transition delay-0"
                             src="/LogoNew_TransparentBG_White.png"
