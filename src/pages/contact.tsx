@@ -4,11 +4,13 @@ const Contact = () => {
     return (
         <>
             <Head>
+                <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
                 <title>Let&apos;s Talk - FTC Team Matrix</title>
                 <meta name="title" content="Let&apos;s Talk - FTC Team Matrix" />
                 <meta name="theme" content="#7143E5" />
                 <meta name="description" content="Contact FTC Team Matrix for inquiries, collaboration opportunities, or any questions you may have. We're here to assist you with any information or assistance you need." />
                 <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
+                <meta property="og:title" content="Let&apos;s Talk - FTC Team Matrix" />
                 <meta property="og:url" content="https://www.ftcmatrix.com/contact-us" />
                 <meta property="og:type" content="website" />
                 

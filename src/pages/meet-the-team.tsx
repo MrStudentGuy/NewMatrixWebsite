@@ -5,6 +5,7 @@ export default function Home() {
     return (
         <>
             <Head>
+                <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
                 <title>Meet the Team - FTC Team Matrix</title>
                 <meta name="title" content="Meet the Team - FTC Team Matrix" />
                 <meta name="theme" content="#7143E5" />
@@ -12,6 +13,7 @@ export default function Home() {
                 <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
                 <meta property="og:url" content="https://www.ftcmatrix.com/meet-the-team" />
                 <meta property="og:type" content="website" />
+                <meta property="og:title" content="Meet the Team - FTC Team Matrix" />
                 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Meet the Team - FTC Team Matrix" />
