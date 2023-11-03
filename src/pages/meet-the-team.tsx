@@ -8,7 +8,7 @@ export default function Home() {
                 <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
                 <title>Meet the Team - FTC Team Matrix</title>
                 <meta name="title" content="Meet the Team - FTC Team Matrix" />
-                <meta name="theme" content="#7143E5" />
+                <meta name="theme-color" content="#7143E5" />
                 <meta name="description" content="Get to know the members of FTC Team Matrix, a dynamic FTC Robotics team based in Mumbai, India. Learn about the talented group of young engineers and innovators who are the driving force behind our success." />
                 <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
                 <meta property="og:url" content="https://www.ftcmatrix.com/meet-the-team" />

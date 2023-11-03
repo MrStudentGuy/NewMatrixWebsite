@@ -7,7 +7,7 @@ export default function Home() {
                 <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
                 <title>Team Matrix - #20870</title>
                 <meta name="title" content="FTC Team Matrix - #20870" />
-                <meta name="theme" content="#7143E5" />
+                <meta name="theme-color" content="#7143E5" />
                 <meta name="description" content="Team Matrix is a dynamic FTC Robotics team based in Mumbai, India. Established in 2021, this talented group of young engineers and innovators has consistently shone as a beacon of technological excellence in India and on the global stage. Explore their remarkable journey and achievements, as they continue to push the boundaries of robotics and STEM education worldwide." />
                 <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
                 <meta property="og:title" content="FTC Team Matrix - #20870" />
