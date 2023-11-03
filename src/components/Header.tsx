@@ -82,6 +82,13 @@ const Header = () => {
                         <br />
                         <br />
                         <div onClick={() => {setOpen(false)}}>
+                            <Link href="/outreach" className="text-white text-3xl">
+                                Outreach
+                            </Link>
+                        </div>
+                        <br />
+                        <br />
+                        <div onClick={() => {setOpen(false)}}>
                             <Link href="/contact" className="text-white text-3xl">
                                 Contact Us
                             </Link>
@@ -94,6 +101,9 @@ const Header = () => {
                     </Link>
                     <Link href="/about" className="text-white hover:scale-110 transition duration-150 delay-0">
                         About
+                    </Link>
+                    <Link href="/outreach" className="text-white hover:scale-110 transition duration-150 delay-0">
+                        Outreach
                     </Link>
                     <Link href="/contact" className="text-white hover:scale-110 transition duration-150 delay-0">
                         Contact Us
