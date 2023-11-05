@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                 </div>
                 
-                <p className={"text-lg"}>We follow Indian Standard Time (GMT +5:30), expect replies accordingly.</p>
+                <p className={"text-lg text-center"}>We follow Indian Standard Time (UTC +5:30), expect replies accordingly.</p>
             </div>
         </>
     );
