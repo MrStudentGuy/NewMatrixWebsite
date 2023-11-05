@@ -22,14 +22,14 @@ export default function Home() {
             </Head>
             
             <div className={"flex flex-col justify-center items-center space-y-10 mt-10"}>
-                <h1 className={"text-4xl md:text-6xl font-extrabold"}>Meet the Matrix</h1>
+                <h1 className={"text-4xl md:text-6xl font-extrabold text-white"}>Meet the Matrix</h1>
                 <div className={"grid grid-cols-1 md:grid-cols-5 gap-5"}>
                     <PersonCard name={"Atharv Agarwal"} image={"/AtharvAgarwal.png"} subteam={"CAD"}/>
                     <PersonCard name={"Aryan Pai"} image={"/AryanPaiApoc.jpg"} subteam={"Programming"}/>
                     <PersonCard name={"Kaavya Majumder"} image={"/KaavyaMajumder.png"} subteam={"Programming"}/>
                     <PersonCard name={"Neil Agrawal"} image={"NeilAgarwal.png"} subteam={"Programming"}/>
                     <PersonCard name={"Aarav Gupta"} image={"/AaravGupta.png"} subteam={"Programming"}/>
-                    <PersonCard name={"Ria Chawan"} image={"/RiaChawan.jpeg"} subteam={"Programming"}/>
+                    <PersonCard name={"Ria Chavan"} image={"/RiaChawan.jpeg"} subteam={"Programming"}/>
                     <PersonCard name={"Sivah Navle"} image={"/SivahNavle.png"} subteam={"Outreach"}/>
                     <PersonCard name={"Yuvansh Shah"} image={"/yuvansh.png"} subteam={"CAD"}/>
                 </div>

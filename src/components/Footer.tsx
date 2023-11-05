@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from "next/image";
+import Link from "next/link";
+import {Instagram, Youtube} from "iconoir-react";
 
 const Footer = () => {
     return (
@@ -40,7 +42,17 @@ const Footer = () => {
                         />
                     </div>
                     
-                    <p className="text-gray-300 text-center lg:text-left">
+                    <div className={"flex flex-row space-x-4 mb-2"}>
+                        <Link href={"https://instagram.com/ftcmatrix"} target={"_blank"}>
+                            <Instagram className={"text-gray-300 w-8 h-8 hover:scale-125 hover:rotate-3 transition delay-0"} />
+                        </Link>
+                        
+                        <Link href={"youtube.com/@ftcteammatrix"} target={"_blank"}>
+                            <Youtube className={"text-gray-300 w-8 h-8 hover:scale-125 hover:rotate-3 transition delay-0"} />
+                        </Link>
+                    </div>
+                    
+                    <p className="text-gray-300 text-center p-1 lg:text-left">
                         &copy; {new Date().getFullYear()} FTC Team Matrix. All rights reserved. FIRST Logos, Centerstage Logos, and FIRST Tech Challenge Logo are the property of FIRST.
                     </p>
                 </div>

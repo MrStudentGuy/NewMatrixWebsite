@@ -3,7 +3,7 @@ import Head from "next/head";
 
 const Outreach = () => {
     return (
-        <div className={"mb-36 md:mb-96"}>
+        <div className={"mb-36 md:mb-96 text-white"}>
             <Head>
                 <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
                 <title>Outreach - FTC Team Matrix</title>
@@ -26,7 +26,7 @@ const Outreach = () => {
                 <h2 className={"text-md md:text-2xl text-center"}>Take a look at some of our outreach projects for the current season</h2>
                 
                 <div className={"grid grid-cols-1 md:grid-cols-5 gap-5 p-2"}>
-                    <div className={"bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4"}>
+                    <div className={"bg-gray-800 rounded-lg shadow-lg p-4"}>
                         <h1 className={"text-2xl font-bold"}>FTC Centerstage Scorer</h1>
                         <p className={"text-lg font-normal mb-5"}>Meet our FTC CenterStage Scorer—a user-friendly tool with a sleek design. It guarantees accurate scoring and offers a shareable link system for collaborative score tracking. Simplify your CenterStage season with this practical solution.</p>
                         <a target={"_blank"} href={"https://scorer.ftcmatrix.com/"} className={"bg-black p-1 rounded-xl"}>scorer.ftcmatrix.com</a>

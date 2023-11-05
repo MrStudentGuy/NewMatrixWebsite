@@ -19,7 +19,7 @@ const Contact = () => {
                 <meta name="twitter:description" content="Contact FTC Team Matrix for inquiries, collaboration opportunities, or any questions you may have. We're here to assist you with any information or assistance you need." />
             </Head>
             
-            <div className={"flex flex-col justify-center items-center space-y-10 md:mb-72 mb-40 mt-10"}>
+            <div className={"flex flex-col text-white justify-center items-center space-y-10 md:mb-72 mb-40 mt-10"}>
                 <h1 className={"text-4xl md:text-6xl font-extrabold"}>Let&apos;s Talk</h1>
                 
                 <div className={"flex flex-col justify-center items-start space-y-10"}>
