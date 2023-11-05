@@ -47,7 +47,7 @@ const Footer = () => {
                             <Instagram className={"text-gray-300 w-8 h-8 hover:scale-125 hover:rotate-3 transition delay-0"} />
                         </Link>
                         
-                        <Link href={"youtube.com/@ftcteammatrix"} target={"_blank"}>
+                        <Link href={"https://youtube.com/@ftcteammatrix"} target={"_blank"}>
                             <Youtube className={"text-gray-300 w-8 h-8 hover:scale-125 hover:rotate-3 transition delay-0"} />
                         </Link>
                     </div>
