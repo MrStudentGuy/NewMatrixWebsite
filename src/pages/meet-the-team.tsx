@@ -28,7 +28,7 @@ export default function Home() {
                     <PersonCard name={"Kaavya Majumder"} image={"/KaavyaMajumder.png"} subteam={"Programming"}/>
                     <PersonCard name={"Neil Agrawal"} image={"NeilAgarwal.png"} subteam={"Programming"}/>
                     <PersonCard name={"Aarav Gupta"} image={"/AaravGupta.png"} subteam={"Programming"}/>
-                    <PersonCard name={"Ria Chavan"} image={"/RiaChawan.jpeg"} subteam={"CAD"}/>
+                    <PersonCard name={"Ria Chavan"} image={"/RiaChavan.jpeg"} subteam={"CAD"}/>
                     <PersonCard name={"Atharv Agarwal"} image={"/AtharvAgarwal.png"} subteam={"CAD"}/>
                     <PersonCard name={"Yuvansh Shah"} image={"/yuvansh.png"} subteam={"CAD"}/>
                     <PersonCard name={"Sivah Navle"} image={"/SivahNavle.png"} subteam={"Outreach"}/>
