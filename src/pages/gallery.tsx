@@ -69,7 +69,7 @@ const Gallery = () => {
                 <meta name="theme-color" content="#7143E5" />
                 <meta name="description" content="Photo Gallery for FTC Team Matrix, Find sneek peaks into their inner workings and experiences." />
                 <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
-                <meta property="og:url" content="https://www.ftcmatrix.com/meet-the-team" />
+                <meta property="og:url" content="https://www.ftcmatrix.com/gallery" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Gallery - FTC Team Matrix" />
                 
