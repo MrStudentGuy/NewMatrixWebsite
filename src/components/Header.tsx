@@ -61,34 +61,58 @@ const Header = () => {
                     <span className="text-white bg-black p-1 rounded-xl">#20870</span>
                 </Link>
                 <div className="lg:hidden">
-                    <Menu isOpen={open} onOpen={() => {setOpen(true)}} onClose={() => {setOpen(false)}} pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } right styles={styles} className={"flex flex-col space-y-2"}>
-                        <Link href={"/"} onClick={() => {setOpen(false)}} className={"text-white text-4xl font-bold"}>Team Matrix</Link>
-                        <br />
-                        <br />
-                        <br />
+                    <Menu isOpen={open} onOpen={() => {
+                        setOpen(true)
+                    }} onClose={() => {
+                        setOpen(false)
+                    }} pageWrapId={"page-wrap"} outerContainerId={"outer-container"} right styles={styles}
+                          className={"flex flex-col space-y-2"}>
+                        <Link href={"/"} onClick={() => {
+                            setOpen(false)
+                        }} className={"text-white text-4xl font-bold"}>Team Matrix</Link>
+                        <br/>
+                        <br/>
+                        <br/>
                         
-                        <div onClick={() => {setOpen(false)}}>
+                        <div onClick={() => {
+                            setOpen(false)
+                        }}>
                             <Link href="/meet-the-team" className="text-white text-3xl">
                                 Meet The Team
                             </Link>
                         </div>
-                        <br />
-                        <br />
-                        <div onClick={() => {setOpen(false)}}>
+                        <br/>
+                        <br/>
+                        <div onClick={() => {
+                            setOpen(false)
+                        }}>
                             <Link href="/about" className="text-white text-3xl">
                                 About
                             </Link>
                         </div>
-                        <br />
-                        <br />
-                        <div onClick={() => {setOpen(false)}}>
+                        <br/>
+                        <br/>
+                        <div onClick={() => {
+                            setOpen(false)
+                        }}>
+                            <Link href="/gallery" className="text-white text-3xl">
+                                Gallery
+                            </Link>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div onClick={() => {
+                            setOpen(false)
+                        }}>
                             <Link href="/outreach" className="text-white text-3xl">
                                 Outreach
                             </Link>
                         </div>
-                        <br />
-                        <br />
-                        <div onClick={() => {setOpen(false)}}>
+                        <br/>
+                        <br/>
+                        <div onClick={() => {
+                            setOpen(false)
+                        }}>
                             <Link href="/contact" className="text-white text-3xl">
                                 Contact Us
                             </Link>
@@ -98,6 +122,9 @@ const Header = () => {
                 <nav className={`space-x-6 hidden lg:flex`}>
                     <Link href="/meet-the-team" className="text-white hover:scale-110 transition duration-150 delay-0">
                         Meet The Team
+                    </Link>
+                    <Link href="/gallery" className="text-white hover:scale-110 transition duration-150 delay-0">
+                        Gallery
                     </Link>
                     <Link href="/about" className="text-white hover:scale-110 transition duration-150 delay-0">
                         About
