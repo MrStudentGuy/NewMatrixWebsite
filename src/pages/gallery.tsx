@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Image from "next/image";
+import Head from "next/head";
 
 
 /*
@@ -61,6 +62,23 @@ const Gallery = () => {
     
     return (
         <>
+            <Head>
+                <script async src="https://analytics.eu.umami.is/script.js" data-website-id="094464ac-a9dc-42b6-b10b-97463324f939"></script>
+                <title>Gallery - FTC Team Matrix</title>
+                <meta name="title" content="Gallery - FTC Team Matrix" />
+                <meta name="theme-color" content="#7143E5" />
+                <meta name="description" content="Photo Gallery for FTC Team Matrix, Find sneek peaks into their inner workings and experiences." />
+                <meta property="og:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
+                <meta property="og:url" content="https://www.ftcmatrix.com/meet-the-team" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Gallery - FTC Team Matrix" />
+                
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Gallery - FTC Team Matrix" />
+                <meta name="twitter:description" content="Photo Gallery for FTC Team Matrix, Find sneek peaks into their inner workings and experiences." />
+                <meta name="twitter:image" content="https://www.ftcmatrix.com/LogoNew_BlackBG.png" />
+            </Head>
+            
             <div className="">
                 <div className="p-6 container mx-auto">
                     <div className="py-2">
