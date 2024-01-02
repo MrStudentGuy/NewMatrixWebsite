@@ -42,7 +42,7 @@ const Gallery = () => {
         {
             link: "add link here",
             image: "https://i.ibb.co/Gd3yR5F/Matrix-Pit-Setup.jpg",
-            comment: "Team Matrix's setting up their pit at the FTC India National Championship 2022-2023.",
+            comment: "Team Matrix setting up their pit at the FTC India National Championship 2022-2023.",
         },
     ];
     
@@ -82,7 +82,7 @@ const Gallery = () => {
             <div className="">
                 <div className="p-6 container mx-auto">
                     <div className="py-2">
-                        <h1 className="text-center text-4xl">Gallery</h1>
+                        <h1 className="text-4xl font-bold text-center mb-8">Gallery</h1>
                     </div>
                     <div className="md:grid md:gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
                         {data.map((x) => {
