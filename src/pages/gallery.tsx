@@ -10,6 +10,9 @@ https://ibb.co/F34rJsN: https://i.ibb.co/tKpGcZk/Winning-Inspire.jpg
 https://ibb.co/ZGcRfsq: https://i.ibb.co/ydgmNTH/After-Judges-Pres.jpg
 https://ibb.co/WkhpXNZ: https://i.ibb.co/Cbcsypg/Convo-With-Barker.jpg
 https://ibb.co/fXGfHxQ: https://i.ibb.co/Gd3yR5F/Matrix-Pit-Setup.jpg
+https://ibb.co/n3JMYf7: https://i.ibb.co/vsn4Tm3/matrix-apoc-playingfield.jpg
+https://ibb.co/FbB4Nj4: https://i.ibb.co/DD7fsSf/Team-Matrix-Hard-At-Work.jpg
+
  */
 
 const Gallery = () => {
@@ -42,8 +45,18 @@ const Gallery = () => {
         {
             link: "add link here",
             image: "https://i.ibb.co/Gd3yR5F/Matrix-Pit-Setup.jpg",
-            comment: "Team Matrix setting up their pit at the FTC India National Championship 2022-2023.",
+            comment: "Team Matrix bitching up their pit at the FTC India National Championship 2022-2023.",
         },
+        {
+            link: "add link here",
+            image: "https://i.ibb.co/vsn4Tm3/matrix-apoc-playingfield.jpg",
+            comment: "Team Matrix prepping for a match at the FTC APOC Event 2022-2023 in Sydney, Australia.",
+        },
+        {
+            link: "add link here",
+            image: "https://i.ibb.co/DD7fsSf/Team-Matrix-Hard-At-Work.jpg",
+            comment: "Team Matrix hard at work, building their robot for the FTC India National Championship 2023-2024.",
+        }
     ];
     
     const [showModal, setShowModal] = useState(false);
