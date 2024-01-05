@@ -45,7 +45,7 @@ const Gallery = () => {
         {
             link: "add link here",
             image: "https://i.ibb.co/Gd3yR5F/Matrix-Pit-Setup.jpg",
-            comment: "Team Matrix bitching up their pit at the FTC India National Championship 2022-2023.",
+            comment: "Team Matrix setting up their pit at the FTC India National Championship 2022-2023.",
         },
         {
             link: "add link here",
